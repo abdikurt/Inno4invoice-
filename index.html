@@ -26,11 +26,11 @@
     <link rel="manifest" href="site.webmanifest">
 <style>
 #site_name {
-    position: absolute;
+    position: inherit;
+    margin: 6px;
     top: 20px;             /* adjust for vertical alignment */
     left: 100px;           /* adjust depending on logo width */
-    background: #ffffff;
-    color: #fff;
+    color: #ffffff;
     padding: 6px 12px;
     border-radius: 4px;
     white-space: nowrap;   /* keeps the title on one line */
@@ -38,6 +38,7 @@
 }
 
 #site_name h3 {
+    color: #ffffff;
     margin: 0;
     font-size: 4rem;
     font-weight: 600;
@@ -49,12 +50,9 @@
 
 
 <body id="top">
-<div id="site_name" class="site_name">
-    <h3>Inno<b>4</b>Invoice</h3>
-</div>
 
 
-    
+
     <!-- preloader
     ================================================== -->
     <div id="preloader">
@@ -76,6 +74,11 @@
         ================================================== -->
         <header class="s-header">
             <div class="row s-header__inner">
+
+                <div id="site_name" class="site_name">
+    <h3>Inno<b style="color: #f40f0f">4</b>Invoice</h3>
+</div>
+
                 <div class="s-header__block">
 
 
