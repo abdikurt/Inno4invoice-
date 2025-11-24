@@ -3034,7 +3034,7 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-header {
-    --header-height : 72px;
+    --header-height : 92px;
     --logo-width    : 10.2rem;
     --width-grid-max: calc(var(--width-sixteen-cols) - calc(var(--gutter) * 2));
     --box-shadow    : 0 1px 1px rgba(0, 0, 0, 0.02),
@@ -3050,7 +3050,7 @@ td:last-child {
     height          : var(--header-height);
     width           : 100%;
     position        : absolute;
-    top             : min(var(--vspace-0_75), 4vh);
+    top             : min(var(--vspace-0_75), 2vh);
     left            : 0;
 }
 
@@ -3123,7 +3123,7 @@ td:last-child {
 .s-header__logo img {
     width         : var(--logo-width);
     margin        : 0;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 /* --------------------------------------------------------------------
@@ -3137,7 +3137,7 @@ td:last-child {
     list-style: none;
     display   : inline-flex;
     flex-flow : row nowrap;
-    margin    : 0;
+    /* margin    : 0; */
     padding   : 0;
 }
 
